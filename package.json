@@ -1,0 +1,19 @@
+{
+  "name": "fast-average-color-compare",
+  "description": "Comparison of algorithms for Fast Average Color",
+  "version": "1.0.0",
+  "license": "MIT",
+  "engines": {
+    "node": ">= 8"
+  },
+  "devDependencies": {
+    "@types/node": "^10.5.1",
+    "color": "^3.0.0",
+    "ts-node": "^7.0.0",
+    "typescript": "^3.0.0"
+  },
+  "scripts": {
+    "build": "ts-node ./src/index.ts"
+  },
+  "private": true
+}
